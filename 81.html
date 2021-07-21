@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>フォームの応用のサンプル</title>
+        <meta name="description" content="フォームの応用">
+    </head>
+    <body>
+        <!-- バックエンドを書いていないので、下記の例は動かないことに注意 -->
+        <form action="example.php" method="POST" name="contact-form">
+
+            <!-- ラジオボタン -->
+            <!-- ラベルを作る -->
+            好きな国：
+            <input type="radio" name="country" value="日本" id="JP">
+            <label for="JP">日本</label>
+            <input type="radio" name="country" value="アメリカ" id="US">
+            <label for="US">アメリカ</label>
+            <input type="radio" name="country" value="フランス" id="FR">
+            <label for="FR">フランス</label>
+            <br>
+            <input type="submit" value="登録する">
+        </form>
+    </body>
+</html>

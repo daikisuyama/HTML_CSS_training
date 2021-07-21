@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>フォームのサンプル</title>
+        <meta name="description" content="フォーム">
+    </head>
+    <body>
+        <!-- バックエンドを書いていないので、下記の例は動かないことに注意 -->
+        <form action="example.php" method="POST" name="contact-form">
+            <!-- 一行の入力 -->
+            名前：<input type="text" placeholder="田中太郎">
+            メール：<input type="email" placeholder="example.gmail.com">
+            <br>
+            <!-- ラジオボタン -->
+            <!-- 同じnameを割り振る -->
+            性別：
+            <input type="radio" name="gender" value="男" checked> 男
+            <input type="radio" name="gender" value="女"> 女
+            <input type="radio" name="gender" value="その他"> その他
+            <br>
+            <!-- チェックボックス -->
+            <!-- 同じnameを割り振る -->
+            色：
+            <input type="checkbox" name="color" value="青" checked> 青
+            <input type="checkbox" name="color" value="赤" checked> 赤
+            <input type="checkbox" name="color" value="黄"> 黄
+            <br>
+            <!-- セレクトボックス -->
+            血液型：
+            <select name="bloodtype">
+                <option value="A">A</option>
+                <option value="B" selected>B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+                <option value="不明">不明</option>
+            </select>
+            <br>
+            <!-- 複数行の入力 -->
+            <textarea name="message" placeholder="メッセージを入力してください"></textarea>
+            <br>
+            <!-- 送信ボタン -->
+            <input type="submit" value="登録する">
+        </form>
+    </body>
+</html>

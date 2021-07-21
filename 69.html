@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>表のサンプル</title>
+        <meta name="description" content="表">
+    </head>
+    <body>
+        <!-- 基本の表 -->
+        <!--
+            border属性により仕切りの線を指定できる
+            デフォルトでは仕切り線がない
+            通常はこのような線はCSSで装飾する
+        -->
+        <table border="1">
+            <tr>
+                <th>見出し1</th>
+                <th>見出し2</th>
+            </tr>
+            <tr>
+                <td>データ1</td>
+                <td>データ2</td>
+            </tr>
+        </table>
+        <!-- セルをつなげたい場合 -->
+        <table border="1">
+            <tr>
+                <!-- 
+                    横につなげる
+                    colspan属性にはつなげたいセルの数を指定        
+                -->
+                <th colspan="2">見出し1+2</th>         
+            </tr>
+            <tr>
+                <!-- 
+                    縦につなげる
+                    rowspan属性にはつなげたいセルの数を指定
+                    次の列はセルがひとつ少なくなる     
+                -->
+                <td rowspan="2">データ1+3</td>
+                <td>データ2</td>
+            </tr>
+            <tr>
+                <td>データ4</td>
+            </tr>
+        </table>
+    </body>
+</html>

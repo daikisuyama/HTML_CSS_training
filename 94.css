@@ -1,0 +1,16 @@
+/* 読み込むCSSファイル */
+@charset "UTF-8";
+body{
+    background-color: #fffeee;
+}
+/* セレクター：h1、プロパティ：color、値：#0bd */
+h1{
+    color: #0bd;
+}
+p{
+    font-size: 20px;
+}
+/* 要素の中の要素（<div>タグの中の<p>タグ）に指定することも可能 */
+div p{
+    color: red;
+}

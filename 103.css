@@ -1,0 +1,11 @@
+/* 左側のみが完全に揃う */
+html{
+    text-align: left;
+}
+h1{
+    text-align: right;
+}
+/* 両端揃えの場合、左側が完全に揃うだけでなく、右側も完全に揃う*/
+p{
+    text-align: justify;
+}

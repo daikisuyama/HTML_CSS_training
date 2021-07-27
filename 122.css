@@ -1,0 +1,6 @@
+body{
+    /* 表示されなかった場合を考えて背景色も指定しておく*/
+    background-color: brown;
+    background-image: url(tsuchi.png);
+    color: #fff;
+}

@@ -1,0 +1,7 @@
+body{
+    background-image: url(ichimatsu.png);
+    /* 横方向と縦方向 */
+    background-repeat: repeat-x;
+    /*background-repeat: repeat-y;*/
+    color: blue;
+}

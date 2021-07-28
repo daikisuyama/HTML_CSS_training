@@ -1,0 +1,12 @@
+h1{
+    border-width: thick;
+    border-style: solid;
+}
+h2{
+    border-width: 1px 4px 10px 20px;
+    border-style: dashed;
+}
+p{
+    border-width: 10px;
+    border-style: double dotted groove solid;
+}

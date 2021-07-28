@@ -1,0 +1,9 @@
+body{
+    background-image: url(tsuchi.png);
+    /* 繰り返しはしない */
+    background-repeat: no-repeat;
+    /* cover ot contain */
+    background-size: cover;
+    /*background-size: contain;*/
+    color:violet;
+}

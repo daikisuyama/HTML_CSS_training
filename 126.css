@@ -1,0 +1,7 @@
+body{
+    background-image: url(ichimatsu.png);
+    background-repeat: no-repeat;
+    /* キーワードで指定する場合 */
+    /* background-position: center top; */
+    background-position: 60px 80px;
+}

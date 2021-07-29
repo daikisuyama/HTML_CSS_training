@@ -1,0 +1,9 @@
+ul{
+    list-style-position: inside;
+}
+ol{
+    list-style-position: outside;
+}
+li{
+    background: blue;
+}

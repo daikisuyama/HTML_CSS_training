@@ -1,0 +1,12 @@
+/* list-style-image は画像の大きさを指定できないので非推奨 */
+/* ul{
+    list-style-image: url(star_pink.png);
+} */
+/* ここで指定しているのは、list-style-positionプロパティ */
+ul{
+    list-style: none;
+}
+ul li{
+    background: url(star_pink.png) no-repeat left center/1em;
+    padding-left: 1.5em;
+}

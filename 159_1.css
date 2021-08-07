@@ -1,0 +1,8 @@
+.container{
+    display: grid;
+}
+.item{
+    background-color: aquamarine;
+    color: #fff;
+    padding: 10px;
+}
